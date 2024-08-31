@@ -10,8 +10,8 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   </React.StrictMode>,
 )
 
-// ReactDOM.createRoot(document.getElementById("first") as HTMLElement).render(
-//   <React.StrictMode>
-//     <Salvation />
-//   </React.StrictMode>
-// );
+ReactDOM.createRoot(document.getElementById("first") as HTMLElement).render(
+  <React.StrictMode>
+    <Salvation />
+  </React.StrictMode>
+);
