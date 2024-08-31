@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './index.css'
+import "bootstrap/dist/css/bootstrap.css";
 import Salvation from './Salvation'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -10,8 +10,8 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   </React.StrictMode>,
 )
 
-ReactDOM.createRoot(document.getElementById("first") as HTMLElement).render(
-  <React.StrictMode>
-    <Salvation />
-  </React.StrictMode>
-);
+// ReactDOM.createRoot(document.getElementById("first") as HTMLElement).render(
+//   <React.StrictMode>
+//     <Salvation />
+//   </React.StrictMode>
+// );

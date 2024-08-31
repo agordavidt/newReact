@@ -1,8 +1,9 @@
-import Salvation from "./Salvation";
+import ListGroup  from "./components/ListGroup";
 
 
-function App(){
-  return <div><Salvation></Salvation></div>
-};
+function App()
+{
+  return <div><ListGroup /></div>
+}
 
-export default App;
+export default ListGroup;
