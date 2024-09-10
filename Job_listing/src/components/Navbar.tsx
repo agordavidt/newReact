@@ -1,4 +1,4 @@
-import logo from '../assets/images/logo.png';
+import logo from '../assets/images/logo.jpg';
 
 
 function Navbar(){
@@ -7,7 +7,7 @@ function Navbar(){
         <nav className="navbar navbar-expand-lg navbar-dark bg-secondary border-bottom border-white">
             <div className="container-fluid">
                 <a className="navbar-brand d-flex align-items-center" href="/index.html">
-                <img src={ logo } alt="React Jobs" className="d-inline-block align-top"  />
+                <img src={ logo } alt="React Jobs" className="d-inline-block align-top" width={40} height={50} />
                 <span className="ms-2 d-none d-md-inline fs-3">Tom Hunt</span>
                 </a>
                 <div className="collapse navbar-collapse justify-content-end">

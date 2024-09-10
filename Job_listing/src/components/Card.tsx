@@ -1,12 +1,24 @@
+import React from "react";
 
-function Card({ children : string })
-{
-    return (
-        <div className="card bg-light p-3 rounded shadow-sm">
-            {children}
-        </div>
-    );
+
+// have each card a component that we can wrap conents in .
+
+interface CardProps {
+  children: React.ReactNode;
+  bg?: string;
 }
+
+const Card: React.FC<CardProps> = ({ children, bg = 'bg-light' }) => {
+  return (
+    <div className={`card ${bg} p-3 rounded shadow-sm`}>{children}</div>
+  );
+};
 
 
 export default Card;
+
+// const Card = ({ children }) => {
+//     return <div> {children} </div>
+// };
+
+// export default Card;
