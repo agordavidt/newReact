@@ -26,7 +26,7 @@ function JobListings(){
                       <div className="text-warning">
                         <i className="fa-solid fa-location-dot"></i> {job.location}
                       </div>
-                      <a href="job.html" className="btn btn-primary btn-sm">
+                      <a href="{ `/job/${ job.id }` }" className="btn btn-primary btn-sm">
                         Read More
                       </a>
                     </div>
