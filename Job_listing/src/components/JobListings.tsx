@@ -1,4 +1,7 @@
 import jobs from '../jobs.json';
+// remember to move the import if joblisting component is created separately
+import { FaMapMarker } from 'react-icons/fa';
+
 
 
 console.log(jobs);
@@ -25,7 +28,7 @@ function JobListings(){
 
                     <div className="d-flex justify-content-between align-items-center">
                       <div className="text-warning">
-                        <i className="fa-solid fa-location-dot"></i> {job.location}
+                        <FaMapMarker />{job.location}
                       </div>
                       <a href="{ `/job/${ job.id }` }" className="btn btn-primary btn-sm">
                         Read More
