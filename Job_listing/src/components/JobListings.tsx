@@ -5,13 +5,14 @@ console.log(jobs);
 
 
 function JobListings(){
+  const recentJobs = jobs.slice(0,3);
     return (
       <section className="bg-light py-5">
         <div className="container">
           <h2 className="text-primary text-center mb-4">Browse Jobs</h2>
           <div className="row g-4">
             {/* <!-- Job Listing 1 --> */}
-            {jobs.map((job) => (
+            {recentJobs.map((job) => (
               <div className="col-md-4">
                 <div className="card border-0 shadow-sm">
                   <div className="card-body">

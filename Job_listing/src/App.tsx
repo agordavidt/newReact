@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import HomeCard from "./components/Homecard";
 import ListGroup from "./components/ListGroup";
 import JobListings from "./components/JobListings";
+import ViewAllJobs from "./components/ViewAllJobs";
 
 
 
@@ -29,6 +30,8 @@ function App()
       </div>
     </div>
     <JobListings />
+    <ViewAllJobs />
+
   
   </>
  );
