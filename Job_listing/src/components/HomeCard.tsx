@@ -9,7 +9,7 @@ function HomeCard() {
           <div className="col">
             <Card>
               <div className="card-body">
-                <h5 className="card-title">For Developers</h5>
+                <h5 className="card-title">Job Seekers</h5>
                 <p className="card-text">
                   Browse our React jobs and start your career today
                 </p>
@@ -22,7 +22,7 @@ function HomeCard() {
           <div className="col">
             <Card bg="bg-info">
               <div className="card-body">
-                <h5 className="card-title">For Employers</h5>
+                <h5 className="card-title">Employers</h5>
                 <p className="card-text">
                   List your job to find the perfect developer for the role
                 </p>

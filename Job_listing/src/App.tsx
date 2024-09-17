@@ -4,6 +4,7 @@ import HomeCard from "./components/Homecard";
 import ListGroup from "./components/ListGroup";
 import JobListings from "./components/JobListings";
 import ViewAllJobs from "./components/ViewAllJobs";
+import Footer from "./components/Footer";
 
 
 
@@ -29,8 +30,11 @@ function App()
         </div>
       </div>
     </div>
+    {/* <ListGroup />
+    <HomeCard /> */}
     <JobListings />
     <ViewAllJobs />
+    <Footer />
 
   
   </>
